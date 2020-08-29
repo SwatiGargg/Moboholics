@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="98dp"
+            android:text="Welcome to ANDROID APP DEVELOPMENT TRAINING"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#9575cd"
+            android:paddingBottom="10dp"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:id="@+id/txtSubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is fun"
+            android:layout_marginLeft="40dp"
+            android:textSize="50sp"
+            android:textStyle="italic"
+            android:textColor="#947315"
+            android:layout_below="@+id/txtHeader"
+    />
+    <ImageView
+            android:id="@+id/imgAndroidPhone"
+            android:layout_width="250dp"
+            android:layout_height="223dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/android_phone"
+    />
+    <Button
+            android:id="@+id/btnClkHERE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK HERE"
+            android:layout_margin="20dp"
+            android:background="#0F24E6"
+            android:textColor="#F1ECEC"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_alignParentBottom="true"
+    />
+    <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:layout_margin="20dp"
+            android:inputType="textPassword"
+            android:layout_below="@+id/imgAndroidPhone"
+    />
+</RelativeLayout>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+ <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+  <RelativeLayout
+        android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:id="@+id/imgAndroidPhone"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:src="@drawable/android_phone"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="2dp"/>
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="234dp"
+            android:layout_height="57dp"
+            android:text="Realme X2 Pro"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="-4dp"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#9575cd"
+            android:layout_toRightOf="@id/imgAndroidPhone"
+            android:layout_toEndOf="@+id/imgAndroidPhone" android:layout_marginStart="-4dp"/>
+
+    <TextView
+            android:id="@+id/memory"
+            android:layout_width="223dp"
+            android:layout_height="48dp"
+            android:text="Lunar White,128GB"
+            android:layout_marginLeft="-2dp"
+            android:textSize="21sp"
+            android:textStyle="italic"
+            android:textColor="#947315"
+            android:layout_toRightOf="@id/imgAndroidPhone"
+            android:layout_below="@id/name"
+            android:layout_marginTop="-13dp" android:layout_marginEnd="9dp" android:layout_alignEnd="@+id/name"/>
+    <TextView
+            android:id="@+id/price"
+            android:layout_width="234dp"
+            android:layout_height="54dp"
+            android:text="Rs 31,999"
+            android:layout_marginLeft="-4dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_toRightOf="@id/imgAndroidPhone"
+            android:layout_below="@id/memory"
+            android:layout_marginTop="-12dp"
+            android:layout_marginEnd="0dp">
+
+    </TextView>
+  </RelativeLayout>
+   <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+      <ImageView
+              android:id="@+id/imgInfinix"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:layout_gravity="left"
+              android:src="@drawable/infinix"
+              android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+              android:layout_marginTop="0dp" android:layout_marginStart="2dp"/>
+
+       <TextView
+               android:id="@+id/nam"
+               android:layout_width="222dp"
+               android:layout_height="92dp"
+               android:text="Infinix smart 4 Plus"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="8dp"
+               android:textSize="30sp"
+               android:textStyle="bold"
+               android:textColor="#9575cd"
+               android:layout_toRightOf="@id/imgInfinix"
+               android:layout_toEndOf="@+id/imgInfinix"
+               android:layout_marginStart="8dp"/>
+
+      <TextView
+              android:id="@+id/memor"
+              android:layout_width="223dp"
+              android:layout_height="48dp"
+              android:text="Midnight Black, 32 GB"
+              android:layout_marginLeft="-2dp"
+              android:textSize="21sp"
+              android:textStyle="italic"
+              android:textColor="#947315"
+              android:layout_toRightOf="@id/imgInfinix"
+              android:layout_below="@id/nam"
+              android:layout_marginTop="-13dp"
+              android:layout_marginEnd="9dp"
+              android:layout_alignEnd="@+id/nam"/>
+      <TextView
+              android:id="@+id/pric"
+              android:layout_width="234dp"
+              android:layout_height="54dp"
+              android:text="Rs 7,999"
+              android:layout_marginLeft="-4dp"
+              android:textSize="30sp"
+              android:textStyle="bold"
+              android:textColor="#3F51B5"
+              android:layout_toRightOf="@id/imgInfinix"
+              android:layout_below="@id/memor"
+              android:layout_marginTop="-12dp"
+              android:layout_marginEnd="0dp"
+              android:layout_alignEnd="@+id/nam"
+      />
+   </RelativeLayout>
+     <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+         <ImageView
+                 android:id="@+id/imgsam"
+                 android:layout_width="150dp"
+                 android:layout_height="150dp"
+                 android:layout_gravity="left"
+                 android:src="@drawable/sam"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginStart="2dp"/>
+
+         <TextView
+                 android:id="@+id/title"
+                 android:layout_width="229dp"
+                 android:layout_height="86dp"
+                 android:text="Samsung Galaxy S10 Plus"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="-2dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#9575cd"
+                 android:layout_toRightOf="@id/imgsam"
+                 android:layout_toEndOf="@+id/imgsam"
+                 android:layout_marginStart="-2dp"/>
+
+         <TextView
+                 android:id="@+id/memoy"
+                 android:layout_width="195dp"
+                 android:layout_height="47dp"
+                 android:text="Prism Black,128GB"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="21sp"
+                 android:textStyle="italic"
+                 android:textColor="#947315"
+                 android:layout_toRightOf="@id/imgsam"
+                 android:layout_below="@id/title"
+                 android:layout_marginTop="12dp"
+                 android:layout_marginEnd="17dp"
+                 android:layout_alignEnd="@+id/title"/>
+         <TextView
+                 android:id="@+id/prce"
+                 android:layout_width="234dp"
+                 android:layout_height="54dp"
+                 android:text="Rs 72,000"
+                 android:layout_marginLeft="-4dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#3F51B5"
+                 android:layout_toRightOf="@id/imgsam"
+                 android:layout_below="@id/memoy"
+                 android:layout_marginTop="-12dp"
+                 android:layout_marginEnd="0dp">
+
+         </TextView>
+     </RelativeLayout>
+     <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+         <ImageView
+                 android:id="@+id/imgRedmi"
+                 android:layout_width="150dp"
+                 android:layout_height="150dp"
+                 android:layout_gravity="left"
+                 android:src="@drawable/redmi"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginStart="2dp"/>
+
+         <TextView
+                 android:id="@+id/heading"
+                 android:layout_width="233dp"
+                 android:layout_height="wrap_content"
+                 android:text="Redmi Note 9 Pro max "
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="-6dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#9575cd"
+                 android:layout_toRightOf="@id/imgRedmi"
+                 android:layout_toEndOf="@+id/imgRedmi"
+                 android:layout_marginStart="-6dp"/>
+
+         <TextView
+                 android:id="@+id/meory"
+                 android:layout_width="wrap_content"
+                 android:layout_height="47dp"
+                 android:text="Interstellar Black,128GB"
+                 android:layout_marginLeft="-13dp"
+                 android:textSize="21sp"
+                 android:textStyle="italic"
+                 android:textColor="#947315"
+                 android:layout_toEndOf="@id/imgRedmi"
+                 android:layout_below="@id/heading"
+                 android:layout_marginTop="2dp"
+                 android:layout_marginEnd="9dp"
+                 android:layout_alignEnd="@+id/heading"/>
+         <TextView
+                 android:id="@+id/pri"
+                 android:layout_width="224dp"
+                 android:layout_height="wrap_content"
+                 android:text="Rs 14,999"
+                 android:layout_marginLeft="2dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#3F51B5"
+                 android:layout_toRightOf="@id/imgRedmi"
+                 android:layout_below="@id/meory"
+                 android:layout_marginTop="-26dp"
+                 android:layout_marginEnd="0dp">
+
+         </TextView>
+     </RelativeLayout>
+     <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+         <ImageView
+                 android:id="@+id/imgPoco"
+                 android:layout_width="150dp"
+                 android:layout_height="150dp"
+                 android:layout_gravity="left"
+                 android:src="@drawable/poco"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginStart="2dp"/>
+
+         <TextView
+                 android:id="@+id/namePoco"
+                 android:layout_width="234dp"
+                 android:layout_height="57dp"
+                 android:text="POCO X2"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="-4dp"
+                 android:textSize="34sp"
+                 android:textStyle="bold"
+                 android:textColor="#9575cd"
+                 android:layout_toRightOf="@id/imgPoco"
+                 android:layout_toEndOf="@+id/imgPoco"
+                 android:layout_marginStart="-4dp"/>
+
+         <TextView
+                 android:id="@+id/memoryPoco"
+                 android:layout_width="223dp"
+                 android:layout_height="48dp"
+                 android:text="Matrix Purple,128GB"
+                 android:layout_marginLeft="-2dp"
+                 android:textSize="21sp"
+                 android:textStyle="italic"
+                 android:textColor="#947315"
+                 android:layout_toRightOf="@id/imgPoco"
+                 android:layout_below="@id/namePoco"
+                 android:layout_marginTop="-13dp"
+                 android:layout_marginEnd="9dp"
+                 android:layout_alignEnd="@+id/namePoco"/>
+         <TextView
+                 android:id="@+id/pricePoco"
+                 android:layout_width="234dp"
+                 android:layout_height="54dp"
+                 android:text="Rs 18,499"
+                 android:layout_marginLeft="-4dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#3F51B5"
+                 android:layout_toRightOf="@id/imgPoco"
+                 android:layout_below="@id/memoryPoco"
+                 android:layout_marginTop="-12dp"
+                 android:layout_marginEnd="0dp">
+
+         </TextView>
+     </RelativeLayout>
+     <RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+         <ImageView
+                 android:id="@+id/imgNarzo"
+                 android:layout_width="150dp"
+                 android:layout_height="150dp"
+                 android:layout_gravity="left"
+                 android:src="@drawable/narzo"
+                 android:layout_alignParentStart="true"
+                 android:layout_alignParentTop="true"
+                 android:layout_marginTop="0dp"
+                 android:layout_marginStart="2dp"/>
+
+         <TextView
+                 android:id="@+id/nameNarzo"
+                 android:layout_width="234dp"
+                 android:layout_height="57dp"
+                 android:text="Realme Narzo 10"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginLeft="-4dp"
+                 android:textSize="34sp"
+                 android:textStyle="bold"
+                 android:textColor="#9575cd"
+                 android:layout_toRightOf="@id/imgNarzo"
+                 android:layout_toEndOf="@+id/imgNarzo"
+                 android:layout_marginStart="-4dp"/>
+
+         <TextView
+                 android:id="@+id/memoryNarzo"
+                 android:layout_width="223dp"
+                 android:layout_height="48dp"
+                 android:text="That Green,128GB"
+                 android:layout_marginLeft="-2dp"
+                 android:textSize="21sp"
+                 android:textStyle="italic"
+                 android:textColor="#947315"
+                 android:layout_toRightOf="@id/imgNarzo"
+                 android:layout_below="@id/nameNarzo"
+                 android:layout_marginTop="-13dp"
+                 android:layout_marginEnd="9dp"
+                 android:layout_alignEnd="@+id/nameNarzo"/>
+         <TextView
+                 android:id="@+id/priceNarzo"
+                 android:layout_width="234dp"
+                 android:layout_height="54dp"
+                 android:text="Rs 11,999"
+                 android:layout_marginLeft="-4dp"
+                 android:textSize="30sp"
+                 android:textStyle="bold"
+                 android:textColor="#3F51B5"
+                 android:layout_toRightOf="@id/imgNarzo"
+                 android:layout_below="@id/memoryNarzo"
+                 android:layout_marginTop="-12dp"
+                 android:layout_marginEnd="0dp">
+
+         </TextView>
+     </RelativeLayout>
+  </LinearLayout>
+</ScrollView>

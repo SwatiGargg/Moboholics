@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Moboholics</string>
+    <string name="password">Password</string>
+    <string name="phone">Enter your Phone Number</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">New to MOBOHOLICS? SIGN UP</string>
+    <string name="validpwd">Smart Phones</string>
+    <string name="preferences_file">Mobiles Preferences</string>
+</resources>
